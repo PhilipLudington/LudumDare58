@@ -14,3 +14,11 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# macOS
+.DS_Store
+
+# Zig
+zig-cache/
+zig-out/
+.zig-cache/
