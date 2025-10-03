@@ -1,0 +1,16 @@
+.{
+    .name = .ld58game,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.14.0",
+    .fingerprint = 0x5a1689a26e92a0a4,
+    .dependencies = .{
+        .raylib_zig = .{
+            .path = "lib/raylib-zig",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
